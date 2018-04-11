@@ -1,4 +1,4 @@
-{% set version = "0.5.3" %}
+{% set version = "0.6.5" %}
 package:
   name: sphinx_bootstrap_theme
   version: {{ version }}
@@ -6,7 +6,7 @@ package:
 source:
   url: https://github.com/ryan-roemer/sphinx-bootstrap-theme/archive/v{{ version }}.tar.gz
   fn: sphinx-bootstrap-theme-v{{ version }}.tar.gz
-  sha256: bec03024dae006b0f3ff0b624adaf66b4bf91763b6ff84cae7b5f9fe71ad546c
+  sha256: 2a7bae61a9cac1ef862bcbb7a3569c1051f4ba33908d91023bcee2afaf55e466
 
 build:
   preserve_egg_dir: True
